@@ -1,0 +1,26 @@
+package itdvn.xmlparsing.jaxbxml;
+
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+@XmlRootElement(name = "catalog")
+public class Catalog {
+
+    @XmlElement(name = "book")
+    private List<Book> books=new ArrayList<>();
+
+    public  void addBooks(Book book)
+    {
+        books.add(book);
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.deepToString(books.toArray()); // deepToString - полное представление содержимого коллекции
+    }
+
+}

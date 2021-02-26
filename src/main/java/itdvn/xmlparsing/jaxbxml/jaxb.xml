@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog>
+    <book>
+        <author>SAI</author>
+        <price>777.0</price>
+        <publishDate>2021-02-17T23:34:31.077+03:00</publishDate>
+        <title>AUM</title>
+    </book>
+    <book>
+        <author>RAM</author>
+        <price>999.0</price>
+        <publishDate>2021-02-17T23:34:31.077+03:00</publishDate>
+        <title>SHRI</title>
+    </book>
+</catalog>
